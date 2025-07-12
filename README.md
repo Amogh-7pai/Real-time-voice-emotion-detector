@@ -18,7 +18,7 @@ This project uses machine learning to detect human emotions such as **happy**, *
 ## 🚀 How to Run
 
 # Step 1: Clone the repository
-git clone https://github.com/yourusername/real-time-voice-emotion-detector.git
+git clone https://github.com/Amogh-7pai/Real-time-voice-emotion-detector
 cd real-time-voice-emotion-detector
 
 # Step 2: Install required packages
