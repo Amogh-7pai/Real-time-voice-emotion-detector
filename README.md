@@ -29,14 +29,17 @@ jupyter notebook notebooks/Emotion_Detection.ipynb
 
 ---
 
-## 🧰 Tech Stack
-
+## 📦 Requirements
 - Python 3.9+
+- numpy
+- pandas
 - scikit-learn
 - librosa
 - sounddevice
-- matplotlib / seaborn
-- pyttsx3 (for speech output)
+- matplotlib
+- seaborn
+- joblib
+- pyttsx3
 
 ---
 
@@ -57,16 +60,4 @@ jupyter notebook notebooks/Emotion_Detection.ipynb
 
 ---
 
-## 📦 Requirements
-- Python 3.9+
-- numpy
-- pandas
-- scikit-learn
-- librosa
-- sounddevice
-- matplotlib
-- seaborn
-- joblib
-- pyttsx3
 
----
