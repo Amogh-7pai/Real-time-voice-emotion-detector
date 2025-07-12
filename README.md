@@ -4,6 +4,16 @@ This project uses machine learning to detect human emotions such as **happy**, *
 
 ---
 
+## 📥 Dataset
+
+This project uses the RAVDESS emotional speech dataset, which can be downloaded from:
+
+🔗 [RAVDESS Speech Audio (Actors 1-24)](https://zenodo.org/record/1188976)
+
+After downloading, extract the files into the `data/Audio_Speech_Actors_01-24/` folder.
+
+---
+
 ## 📌 Features
 
 - 🎙️ Record speech from your microphone
