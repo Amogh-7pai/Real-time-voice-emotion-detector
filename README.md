@@ -15,6 +15,20 @@ This project uses machine learning to detect human emotions such as **happy**, *
 
 ---
 
+## 🚀 How to Run
+
+# Step 1: Clone the repository
+git clone https://github.com/yourusername/real-time-voice-emotion-detector.git
+cd real-time-voice-emotion-detector
+
+# Step 2: Install required packages
+pip install -r requirements.txt
+
+# Step 3: Launch the notebook
+jupyter notebook notebooks/Emotion_Detection.ipynb
+
+---
+
 ## 🧰 Tech Stack
 
 - Python 3.9+
@@ -25,4 +39,16 @@ This project uses machine learning to detect human emotions such as **happy**, *
 - pyttsx3 (for speech output)
 
 ---
+📂 Folder Structure
+bash
+Copy code
+📁 data/
+ └── Audio_Speech_Actors_01-24/       # RAVDESS dataset
+📁 models/
+ └── emotion_model.pkl                # Trained model
+ └── scaler.pkl                       # Scaler for normalization
+📁 notebooks/
+ └── Emotion_Detection.ipynb          # Main notebook
+📄 README.md
+📄 requirements.txt
 
