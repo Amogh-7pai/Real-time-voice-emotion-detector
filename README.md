@@ -39,16 +39,34 @@ jupyter notebook notebooks/Emotion_Detection.ipynb
 - pyttsx3 (for speech output)
 
 ---
-📂 Folder Structure
-bash
-Copy code
-📁 data/
- └── Audio_Speech_Actors_01-24/       # RAVDESS dataset
-📁 models/
- └── emotion_model.pkl                # Trained model
- └── scaler.pkl                       # Scaler for normalization
-📁 notebooks/
- └── Emotion_Detection.ipynb          # Main notebook
-📄 README.md
-📄 requirements.txt
 
+## ✅ Results
+
+- Accuracy (Random Forest): **~65–75%** depending on parameter tuning
+- Real-time predictions may vary due to microphone quality and ambient noise
+- The model was trained on RAVDESS dataset, which contains acted emotions — this limits real-world generalization
+- Improvements were made using audio normalization and feature tuning
+
+---
+
+## 🔮 Future Enhancements
+
+- Train using your own voice samples for better real-time accuracy
+- Add Streamlit app for interactive web-based prediction
+- Integrate deep learning models like Wav2Vec2 for higher generalization
+
+---
+
+## 📦 Requirements
+- Python 3.9+
+- numpy
+- pandas
+- scikit-learn
+- librosa
+- sounddevice
+- matplotlib
+- seaborn
+- joblib
+- pyttsx3
+
+---
