@@ -15,13 +15,6 @@ This project uses machine learning to detect human emotions such as **happy**, *
 
 ---
 
-## 🧪 Demo
-
-https://user-images.githubusercontent.com/your_demo_video_link_here.mp4  
-*(Optional: Add a short screen recording of your notebook running live)*
-
----
-
 ## 🧰 Tech Stack
 
 - Python 3.9+
